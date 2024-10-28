@@ -11,7 +11,13 @@ import "./App.css";
 
 // Initialize Firebase
 const firebaseConfig = {
-    // YOUR FIREBASE CONFIG HERE
+    apiKey: "AIzaSyDx6QNdV9DGyZnHo73_SIaFW_5sFahui7c",
+    authDomain: "dating-app-daf4e.firebaseapp.com",
+    projectId: "dating-app-daf4e",
+    storageBucket: "dating-app-daf4e.appspot.com",
+    messagingSenderId: "1014045416105",
+    appId: "1:1014045416105:web:c6184d88c97332725167b8",
+    measurementId: "G-81JTZCD81D"
 };
 
 if (!firebase.apps.length) {
